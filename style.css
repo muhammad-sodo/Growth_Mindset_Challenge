@@ -1,0 +1,70 @@
+/* Main page styling */
+.stApp {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header styling */
+h1 {
+    color: #2e7d32 !important;
+}
+
+h2 {
+    color: #388e3c !important;
+    border-bottom: 2px solid #81c784;
+    padding-bottom: 8px;
+}
+
+/* Challenge box styling */
+.challenge-box {
+    background-color: #e8f5e9;
+    border-left: 5px solid #4caf50;
+    padding: 1.5rem;
+    border-radius: 0 8px 8px 0;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.challenge-box h3 {
+    color: #2e7d32;
+    margin-top: 0;
+}
+
+/* Journal entry styling */
+.journal-entry {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.journal-entry h4 {
+    color: #388e3c;
+    margin-bottom: 0.5rem;
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #388e3c;
+}
+
+/* Text area styling */
+.stTextArea>textarea {
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* Info box styling */
+.stAlert {
+    border-radius: 8px;
+}
